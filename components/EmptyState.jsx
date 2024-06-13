@@ -15,7 +15,7 @@ const EmptyState = ({title,subtitle}) => {
       <Text className="font-pmedium text-sm text-gray-100">{subtitle}</Text>
 
       <CustomButton title="Create video" handlePress={()=>router.push("/create")}
-        containerStyle="w-full my-5"/>
+        containerStyles="w-full my-5"/>
     </View>
   );
 };

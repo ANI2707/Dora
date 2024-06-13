@@ -78,7 +78,7 @@ const SignUp = () => {
           <CustomButton
             title="Sign Up"
             handlePress={submit}
-            containerStyle="mt-7"
+            containerStyles="mt-7"
             isLoading={isSubmitting}
           />
           <View className="justify-center pt-5 flex-row gap-2">

@@ -41,7 +41,7 @@ export default function App() {
             exploration with Dora
           </Text>
           {/*Custom  Button with props */}
-          <CustomButton title="Continue with Email" handlePress={() => router.push('/sign-in')}  containerStyle="w-full mt-7"/>
+          <CustomButton title="Continue with Email" handlePress={() => router.push('/sign-in')}  containerStyles="w-full mt-7"/>
         </View>
       </ScrollView>
 
